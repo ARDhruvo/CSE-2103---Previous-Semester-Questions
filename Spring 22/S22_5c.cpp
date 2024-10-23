@@ -9,6 +9,7 @@ struct node
 
 node *root = NULL;
 
+
 void midNode() // Can also be done with modified Hare and Tortoise (which is probably better)
 {
     node *curr_node = root->next;
